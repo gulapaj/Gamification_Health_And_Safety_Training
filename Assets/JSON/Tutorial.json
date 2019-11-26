@@ -1,0 +1,54 @@
+{
+  "Modules": [
+    {
+      "ModuleTitle": "Tutorial",
+      "ModuleId": 1,
+      "Level": [
+        {
+          "LevelId": 1,
+          "Title": "How This Works",
+          "NPC": [
+            {
+              "NPCId": 1,
+              "Training": "Hey there, *FRESH MEAT*, you seem new around here. This is training so pay attention to what we say in this portion. It's only me here now but you'll need to find us all later. Once you have, you'll be tested on what we told you. I'll do that shortly, just wait a minute.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Hello again, *FRESH MEAT*, were you paying attention to what I said earlier.",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Who are you?",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Where am I?",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Yes.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "How did you know my name?",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Company": "Hellmart"
+}

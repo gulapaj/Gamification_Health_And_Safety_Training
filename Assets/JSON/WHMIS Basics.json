@@ -1,0 +1,734 @@
+{
+  "Modules": [
+    {
+      "ModuleTitle": "WHMIS Basics",
+      "ModuleId": 1,
+      "Level": [
+        {
+          "LevelId": 1,
+          "Title": "Starting Out",
+          "NPC": [
+            {
+              "NPCId": 1,
+              "Training": "WHMIS 2015 applies to two major groups of hazards: physical, and health. Each hazard group includes hazard classes that have specific hazardous properties. In Canada, WHMIS legislation requires that products used in the workplace that meet the criteria to be classified as hazardous products must be labelled. Labels are the first alert to the user about the major hazards associated with that product, and outline the basic precautions or safety steps that should be taken. The hazardous products Saftey Data Sheet will contain more information.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Hey buddy, can you tell me what SDS stands for?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Securing Data Sheet",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Safety Data Sheet",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Storage Data Sheet",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Sandwich Data Sheet",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "Servicing Data Sheet",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Did you know SDS's are only required for hazardous products within the Physical Hazard Class?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "This is a statement that I absolutely and wholeheartedly agree with. I haved no reservations in regard to the correctness of this statement.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "This statement contains one or more falsehoods and is therefore incorrect.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "I am unsure about the validity of this statement.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 2,
+              "Training": "WHMIS is a Canada wide system designed to give employees and workers information about hazardous materials used in the workplace. Under WHMIS there are three ways in which information on hazardous materials is to be provided; labels on containers of hazardous materials, material safety data sheets to supplement the label with detailed hazardous and pre-cautionary information, worker education programs. A workplace label is required when; a hazardous product is produced (made) at the workplace and used in that workplace, a hazardous product is decanted (e.g., transferred or poured) into another container, or a supplier label becomes lost or illegible (unreadable).",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "You there! I need to give out some information about hazardous products. Any idea how this is done?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Safety Rules, Labels and Auditing",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Gloves, Respirators and Boots",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Email, SMS and Phone Call",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Labels, SDS & Worker Education",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "Auditing, Symbols and Labels",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Hmm, I'm rethinking my current communication methods. Do you know when a workplace label is required?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "A hazardous product is transferred from the original container to another container",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "The supplier label is illegible or becomes detached from the container or bottle",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "The hazardous product is produced at the workplace",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "All of the above",
+                          "Correct": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 3,
+              "Training": "There are two main types of WHMIS labels: supplier labels, and workplace labels. Suppliers of hazardous products are required to apply a label that meets the requirements of the Hazardous Products Regulations. If the hazardous product is always used in the container with the supplier label, no other label is required. If the hazrdous product is transfered to a different container, a new workplace lable is required to be added by the employer.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "This container has no supplier label. I really should add one. Wait, I'm just a worker, is that even my job?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Nope, not your job.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Yeah, you need to do that right away.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "You're asking the wrong employee.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "LevelId": 2,
+          "Title": "Poisons & You",
+          "NPC": [
+            {
+              "NPCId": 1,
+              "Training": "Inhalation (breathing) is the most common of the WHMIS routes of entry for hazardous chemicals into the body, but some chemicals also enter the body when absorbed through the skin. Less commonly, hazardous chemicals may be ingested (swallowed) after contaminating the hands, cigarettes or snacks. It is for this reason that workers should never drink, smoke or eat in areas where they can be exposed to toxic chemicals. The least common route of entry is injection. It occurs when a sharp object accidentally punctures the skin and inserts a chemical into the bloodstream or when a hazardous chemical is sprayed on the skin at very high pressure. Personal protective equipment commonly used when working with chemicals includes; Safety Glasses, Hard Hat, Ear Protection, Gloves, Respirator, Clothing, Footwear.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Which of the following are routes of entry?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Inhalation",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "All of the above and below",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Absorption",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Ingestion",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Behold my vast collection of personal protective equipment! I know one of these doesn't technically count as personal protective equipment, but no one else will be able to figure out which!",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "It's the fume hood.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "It's the nitrile gloves.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "It's the splash-proof goggles.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "It's the respirator.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "Right you are.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 2,
+              "Training": "The skull and crossbones pictogram can cause death or toxicity with short exposure to small amounts. The exclamation mark may cause less serious helath effects or damage to the ozone layer. For oral and dermal hazards, wash hands thoroughly after handling. Do not eat, drink, or smoke when using these products. For dermal hazards, do not get in eyes, on skin, or on clothing. Wear protective gloves, protective clothing, if required. Personal protective equipment (PPE) may include respiratory protection, goggles, a face shield, and chemical protective clothing such as gloves and an apron made from materials that protect against the Acute toxicity product.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Arrr. When ye see the skull and crossbones on a supplier label, what precautions should ye be takin' when using the product?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Do not eat or drink in areas where this product is used.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Wear the required Personal Protective Equipment.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Practice good hand hygiene.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "All the above.",
+                          "Correct": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 3,
+              "Training": "The symbol within the pictogram is a flame with a line underneath it. This symbol indicates that hazardous products with this pictogram can ignite easily and burn rapidly if they are not stored and handled properly. For a fire to occur, three elements must be together at the same time and in the right proportions; a source of fuel (e.g., the flammable product), oxygen, and heat (e.g., an ignition source such as a spark).",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "This supplier label has a neat little pictogram of a campfire! Shall I go get the marshmallows?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "No, this product is a disinfectant.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "No, this product will evaporate quickly.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "No, this product should be kept away ignition sources.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Sure, this product is safe to use in all environments.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 4,
+              "Training": "Any product that can chemically damage or destroy steel or aluminum is considered corrosive to metals. This pictogram can be recognized by the liquid pouring from a test tube and is also used to indicate two health hazard classes for products that can cause destructive, irreversible damage to the skin and eyes. The two hazard classes are; skin corrosion/irritation, serious eye damage/eye irritation.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "This supplier label displays some liquid dripping out of a test tube. It's probably some fancy soap.",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Actually, that product may cause skin damage. Be careful.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Actually, that product is under pressure. Be careful.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Actually, that product can cause disease. Becareful.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Actually, that product will react to low temperatures. Be careful.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "LevelId": 3,
+          "Title": "Basic Super Hazards",
+          "NPC": [
+            {
+              "NPCId": 1,
+              "Training": "WHMIS is a short form for Workplace Hazardous Materials Information System. It is a comprehensive plan for providing information on the safe use of hazardous materials used in Canadian workplaces. Information is provided by means of product labels, safety data sheets (SDS) and worker education programs. The main components of WHMIS are hazard identification and product classification, labelling, material safety data sheets, and worker training and education. SDS's are required to be accurate at the time of sale. An SDS will be required to be updated when the supplier becomes aware of any significant new data. SDS's will be required to be updated within 90 days of the supplier being aware of the new information. If you purchase a product within this 90 day time period, the supplier must inform you of the significant new data and the date on which it became available in writing. The requirement to update a material safety data sheet every three years, as was the case under WHMIS 1988, no longer applies. For WHMIS 2015, the SDS must be accurate at the time of every sale or importation of the hazardous product. Suppliers have an ongoing responsibility to make sure SDSs and labels are accurate and compliant.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "What even is WHMIS anyway?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "It's a workplace transportation guide",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "It's a workplace environment management system ",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "It's a hazardous materials information system ",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "It's a hazardous waste disposal system ",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "This SDS looks a bit... ancient. How often do these need to be replaced?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Every 6 months.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Every year.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Every 3 years.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Every 5 years.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "When needed.",
+                          "Correct": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 2,
+              "Training": "The Hazardous Products Regulations (HPR) specifies the sections and content for the SDS. Schedule 1 within the HPR outlines the section number and heading that must be presented in the specified order, as follows: Identification, Hazard identification, Composition/Information on ingredients, First-aid measures, Fire-fighting measures, Accidental release measures, Handling and storage, Exposure controls/Personal protection, Physical and chemical properties, Stability and reactivity, Toxicological information, Ecological information, Disposal considerations, Transport information, Regulatory information, Other information.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Woah, have you read a Safety Data Sheet? I had no idea it contains information on...",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "First-Aid Measures.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Toxicological Information.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Ecological Information.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "All the above.",
+                          "Correct": true
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Look at this, a chemical’s characteristics is listed on the SDS under...",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Composition/Information on Ingredients",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Other Information",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Physical and Chemical Properties",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Identification",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 3,
+              "Training": "Workplace labels are used if there is not a supplier label on the container or when the hazardous material is transferred from the original container to another container, when the supplier label is illegible, defaced of becomes detached from the supplier container; or when the hazardous material is produced at the workplace. Only 3 pieces of information are required on a workplace label; product identifier, precautionary measures, a reference to the SDS. Personal protective equipment (PPE) is equipment or clothing worn to minimize exposure to chemical hazards in the workplace. PPE does not remove or reduce workplace hazards and does not replace effective engineering or administrative control methods such as substitution or ventilation. PPE is the last line of defense when the hazard cannot be removed or controlled adequately. Proper selection, use and care of the equipment are vital to provide the proper level of protection.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Look at all this! How many items of information are even required on a workplace label?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "3",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "8",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "2",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "None",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "12",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Are you wearing your personal protective equipment?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "No, personal protective equipment that is recommended on a SDS should be ignored.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Yes, personal protective equipment that is recommended on a SDS does not have to be maintained.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Yes, personal protective equipment that is recommended on a SDS must be available and used by employees when required.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "No, personal protective equipment that is recommended on a SDS does not have to be available.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 4,
+              "Training": "WHMIS education and training refers to information and instruction that must be provided to most Canadian workers. While there are many different methods in which workers can receive WHMIS Training and Education, the goal always remains the same; ensure that workers receive, understand, and use the necessary information to stay safe while working with hazardous products in the workplace.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "Have you heard? The ULTIMATE goal of WHMIS is to reduce injuries and illnesses associated with chemical exposures in the workplace.",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "I have indeed heard, brother.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "You have not heard the full story, brother.",
+                          "Correct": true
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Well, you know, I don’t need to understand WHMIS.",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "True.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "This is considered blasphemy.",
+                          "Correct": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "NPCId": 5,
+              "Training": "Supplier labels must be in both official languages of Canada (English and French). They may be bilingual (as one label), or available as two labels (one each in English and French). Providing a supplier label in just English or French would not be considered to be in compliance. The supplier label must include the following information; product identifier, initial supplier identifier, pictogram(s), hazard statement(s), precautionary statement(s), supplemental label.",
+              "Encounter": [
+                {
+                  "EncounterId": 1,
+                  "Question": [
+                    {
+                      "QuestionId": 1,
+                      "QuestionString": "I don't know how to use a respirator. What should I be concerned about?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "It has to fit properly.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "It has to be cleaned regularly.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "The filter type must match the hazard.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "All of the above.",
+                          "Correct": true
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 2,
+                      "QuestionString": "Have you seen the WHMIS symbol for compressed gas?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Yeah, the \"T\" in a circle, right?",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Yeah, a cylinder in a circle, right?",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Yeah, a flame in a triangle, right?",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "Yeah, the \"G\" in a circle, right?",
+                          "Correct": false
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 3,
+                      "QuestionString": "You know what isn't true regarding acute and chronic health effects?",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "Acute refers to sudden or brief effects.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "Chronic relates to long term or prolonged effects.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "More information is known about acute effects than chronic effects.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "SDS's include information on how to treat chronic health effects.",
+                          "Correct": true
+                        }
+                      ]
+                    },
+                    {
+                      "QuestionId": 4,
+                      "QuestionString": "Supplier labels must be written in...",
+                      "Choices": [
+                        {
+                          "ChoiceId": 1,
+                          "ChoiceString": "English.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 2,
+                          "ChoiceString": "French.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 3,
+                          "ChoiceString": "Both English and French.",
+                          "Correct": true
+                        },
+                        {
+                          "ChoiceId": 4,
+                          "ChoiceString": "A language that can be understood by the reader.",
+                          "Correct": false
+                        },
+                        {
+                          "ChoiceId": 5,
+                          "ChoiceString": "None of the above.",
+                          "Correct": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Company": "Hellmart"
+}
